@@ -1,0 +1,90 @@
+.worshipCollection-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.worshipCollection-title h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 3.4rem;
+    color: black;
+}
+.horizontal-underline{
+    width: 280px;
+    height: 10px;
+    text-align: center;
+    border-end-end-radius:2000%;
+    border-end-start-radius: 100px;
+    background: radial-gradient(rgb(238, 95, 238), rgb(207, 207, 10));
+}
+/* styling the search area */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 20px;
+}
+.search .search-div{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 26%;
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 2px 5px;
+}
+.worship-song-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2.5rem;
+    flex-direction: column;
+}
+.worship-song-container{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(163, 154, 154);
+    width: 80%;
+    margin-bottom: 0.3rem;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.worship-song-title{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.worship-song-artist{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.worship-song-artist span{
+    font-weight: bold;
+}
+.worship-song-container button{
+    background-color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

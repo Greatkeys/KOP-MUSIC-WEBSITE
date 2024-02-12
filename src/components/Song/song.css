@@ -1,0 +1,72 @@
+.song-section{
+    margin-top: 3rem;
+    
+}
+.song-section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.song-section-title h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 3.4rem;
+    color: black;
+    /* background: linear-gradient(black, #ccc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.horizontal-underline{
+    width: 350px;
+    height: 10px;
+    text-align: center;
+    border-end-end-radius:2000%;
+    border-end-start-radius: 100px;
+    background: radial-gradient(rgb(238, 95, 238), rgb(207, 207, 10));
+}
+.wrapper-div-for-songs{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 4rem;
+    grid-gap: 20px;
+    row-gap: 3rem;
+}
+.wrapper-div-for-songs .song-container{
+    background-color: rgb(31, 29, 29);
+    border-radius: 20px;
+    padding: 20px;
+}
+.song-container:hover{
+    transform: scale(1.03);
+}
+.song-container img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.song-container .song-title{
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.song-container .song-author-wrapper{
+    color: #aaa;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.song-container .song-author{
+    font-weight: bold;
+}
+.song-container .song-btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(241, 150, 114);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    cursor: pointer;
+}
